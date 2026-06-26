@@ -1,0 +1,37 @@
+MediaLite 使用说明
+==================
+
+【前提条件】
+  运行本程序需要在电脑上安装：
+  1. Python 3.10（64位）
+     下载地址：https://www.python.org/downloads/release/python-31011/
+     安装时勾选"Add Python to PATH"
+
+  2. PySide6 库
+     安装好 Python 后，打开命令提示符，输入：
+     pip install PySide6
+
+【启动方法】
+  双击"启动MediaLite.bat"即可运行。
+  首次启动可能稍慢（约 5-10 秒），属于正常现象。
+
+【分发说明】
+  将本文件夹（dist_cython）内的全部文件一起发给对方即可。
+  对方同样需要安装 Python 3.10 和 PySide6。
+  源代码已加密，不含可读的 .py 文件。
+
+【文件说明】
+  启动MediaLite.bat         — 双击启动
+  medialite.cp310-win_amd64.pyd — 程序主体（加密二进制）
+  run.py                    — 启动入口（3行，不含源码）
+  使用说明.txt               — 本文件
+
+【常见问题】
+  Q：双击 bat 闪退了怎么办？
+  A：说明 Python 或 PySide6 未安装，按提示安装后重试。
+
+  Q：能否在 Python 3.11/3.12 上运行？
+  A：不能。.pyd 文件绑定 Python 3.10，版本必须一致。
+
+  Q：能否在 Mac/Linux 上运行？
+  A：不能。.pyd 是 Windows 专用格式。

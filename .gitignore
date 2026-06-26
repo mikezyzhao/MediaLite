@@ -1,0 +1,34 @@
+# 源码（保护，不上传）
+medialite.py
+medialite_explicit.py
+
+# 编译中间产物
+*.c
+*.obj
+*.exp
+*.lib
+
+# 编译辅助脚本（开发用，不公开）
+make_explicit_imports.py
+
+# Python 缓存
+__pycache__/
+
+# 废弃目录
+build/
+dist/
+dist_pyd/
+dist_pyd2/
+
+# 日志与测试
+*.log
+test_*.py
+setup_test.py
+
+# 其他
+media-gallery.html
+
+# 旧版 PRD 归档
+docs/archive/
+build_cython.bat
+docs/
