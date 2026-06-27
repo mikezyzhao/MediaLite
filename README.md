@@ -9,13 +9,17 @@
 
 ## 截图预览
 
-| 缩略图网格（11,945 个文件） | 图片查看器 |
-|---|---|
-| ![缩略图网格](screenshots/thumbnail_grid.png) | ![图片查看器](screenshots/image_viewer_fullscreen.png) |
+**缩略图网格（11,945 个文件）**
+![缩略图网格](screenshots/thumbnail_grid.png)
 
-| 视频播放 | 全屏 + 双语字幕 |
-|---|---|
-| ![视频播放](screenshots/video_player.png) | ![全屏双语字幕](screenshots/video_fullscreen_subtitle.png) |
+**视频播放**
+![视频播放](screenshots/video_player.png)
+
+**全屏 + 双语字幕**
+![全屏双语字幕](screenshots/video_fullscreen_subtitle.png)
+
+**图片查看器**
+![图片查看器](screenshots/image_viewer_fullscreen.png)
 
 ---
 
